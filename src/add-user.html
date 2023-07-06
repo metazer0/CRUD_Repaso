@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h2>Add User</h2>
+
+    <div class="container">
+        <form action="/create-user" method="POST">
+            <div class="add-user-id">
+                <label for="userId">User Id</label>
+                <input type="text" name="userId">
+            </div>
+            <div class="add-user-username">
+                <label for="username">Username</label>
+                <input type="text" name="username">
+            </div>
+            <div class="add-user-password">
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </div>
+            <div class="add-user-fullname">
+                <label for="fullname">Fullname</label>
+                <input type="text" name="fullname">
+            </div>
+            <div class="add-user-email">
+                <label for="email">Email</label>
+                <input type="text" name="email">
+            </div>
+            <div>
+                <button type="submit">Add User</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
